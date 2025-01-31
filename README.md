@@ -21,7 +21,7 @@ This is a simple guide to help you get started with web application development.
 
 - Implement static code analysis tools to maintain code quality and detect vulnerabilities early:
   - Use [**SonarQube**](https://www.sonarsource.com/products/sonarqube/), [**PHPStan**](https://github.com/nunomaduro/larastan), [**PHP_CodeSniffer**](https://github.com/squizlabs/PHP_CodeSniffer), [**Larastan**](https://github.com/larastan/larastan) or [**PHP Insights**](https://github.com/nunomaduro/phpinsights) for PHP projects.
-- Automate code analysis as part of CI/CD pipelines; click [**here**](https://www.youtube.com/watch?v=xg30pxmGDMw) to know more about GitHub Actions.
+- Automate code analysis as part of CI/CD pipelines; see Section 7 to know more about CI/CD automation.
 - Define and enforce code formatting and linting rules; see [**Laravel's coding guidelines**](https://xqsit94.github.io/laravel-coding-guidelines/) (you can help yourself using tools like [**Laravel Pint**](https://github.com/laravel/pint)).
 - **Remember**: you won’t be a better programmer by not making mistakes, but by **KNOWING** you will make them and using tools that help you catch them before they reach production.
 
