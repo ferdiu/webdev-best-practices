@@ -88,6 +88,7 @@ This is a simple guide to help you get started with web application development.
   - Code documentation with tools like [**PHPDoc**](https://en.wikipedia.org/wiki/PHPDoc), inspired by [**Javadoc**](https://en.wikipedia.org/wiki/Javadoc).
   - System design diagrams and flowcharts with different level of details (e.g. [C4 model](https://c4model.com/) using [**PlantUML**](https://plantuml.com/) and [**docthing**](https://github.com/ferdiu/docthing/)).
   - README files with setup and usage instructions.
+  - A troubleshooting section is always welcome.
 - **Encourage internal knowledge-sharing sessions**.
 
 ### 10. **Monitoring & Performance Optimisation**
