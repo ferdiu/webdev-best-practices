@@ -20,9 +20,9 @@ This is a simple guide to help you get started with web application development.
 ### 2. **Static Code Analysis**
 
 - Implement static code analysis tools to maintain code quality and detect vulnerabilities early:
-  - Use [**SonarQube**](https://www.sonarsource.com/products/sonarqube/), [**PHPStan**](https://github.com/nunomaduro/larastan), [**PHP_CodeSniffer**](https://github.com/squizlabs/PHP_CodeSniffer), or [**Laravel Pint**](https://github.com/laravel/pint) for PHP projects.
-- Automate code analysis as part of CI/CD pipelines.
-- Define and enforce code formatting and linting rules.
+  - Use [**SonarQube**](https://www.sonarsource.com/products/sonarqube/), [**PHPStan**](https://github.com/nunomaduro/larastan), [**PHP_CodeSniffer**](https://github.com/squizlabs/PHP_CodeSniffer), [**Larastan**](https://github.com/larastan/larastan) or [**PHP Insights**](https://github.com/nunomaduro/phpinsights) for PHP projects.
+- Automate code analysis as part of CI/CD pipelines; see Section 7 to know more about CI/CD automation.
+- Define and enforce code formatting and linting rules; see [**Laravel's coding guidelines**](https://xqsit94.github.io/laravel-coding-guidelines/) (you can help yourself using tools like [**Laravel Pint**](https://github.com/laravel/pint)).
 - **Remember**: you won’t be a better programmer by not making mistakes, but by **KNOWING** you will make them and using tools that help you catch them before they reach production.
 
 ### 3. **Testing Strategy**
@@ -88,6 +88,7 @@ This is a simple guide to help you get started with web application development.
   - Code documentation with tools like [**PHPDoc**](https://en.wikipedia.org/wiki/PHPDoc), inspired by [**Javadoc**](https://en.wikipedia.org/wiki/Javadoc).
   - System design diagrams and flowcharts with different level of details (e.g. [C4 model](https://c4model.com/) using [**PlantUML**](https://plantuml.com/) and [**docthing**](https://github.com/ferdiu/docthing/)).
   - README files with setup and usage instructions.
+  - A troubleshooting section is always welcome.
 - **Encourage internal knowledge-sharing sessions**.
 
 ### 10. **Monitoring & Performance Optimisation**
